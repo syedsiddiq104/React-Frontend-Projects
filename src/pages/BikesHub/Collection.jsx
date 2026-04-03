@@ -12,7 +12,7 @@ const Collection = () => {
     const fetchApi = async () => {
       try {
         const response = await axios.get("./bikes.json");
-        setBikes(response.data);
+        setBikes(response.data.bikes);
       } catch (err) {
         setError("Failed to load bikes");
       } finally {
@@ -24,6 +24,8 @@ const Collection = () => {
   }, []);
 
   const FilterBikes = (brand) => {
+    if (!Array.isArray(bikes)) return;
+
     if (brand === "ALL") {
       setFilteredBikes(bikes);
     } else {

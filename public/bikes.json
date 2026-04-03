@@ -11,7 +11,7 @@
       "type": "Sport",
       "abs": "Dual Channel",
       "topSpeed": "140 km/h",
-      "image": "/src/assets/Bikesimages/image.png",
+      "image": "/Bikesimages/image.png",
       "description": "Track-inspired supersport motorcycle with aggressive styling and sharp cornering ability."
     },
     {
@@ -25,7 +25,7 @@
       "type": "Naked",
       "abs": "Single Channel",
       "topSpeed": "130 km/h",
-      "image": "/src/assets/Bikesimages/image copy.png",
+      "image": "/Bikesimages/image copy.png",
       "description": "Compact streetfighter delivering quick acceleration and bold urban presence."
     },
     {
@@ -39,7 +39,7 @@
       "type": "Sport",
       "abs": "Dual Channel",
       "topSpeed": "140 km/h",
-      "image": "/src/assets/Bikesimages/image copy 2.png",
+      "image": "/Bikesimages/image copy 2.png",
       "description": "Race-ready performance machine built for thrill seekers and speed enthusiasts."
     },
     {
@@ -53,7 +53,7 @@
       "type": "Naked",
       "abs": "Dual Channel",
       "topSpeed": "167 km/h",
-      "image": "/src/assets/Bikesimages/image copy 3.png",
+      "image": "/Bikesimages/image copy 3.png",
       "description": "High-performance naked bike known for explosive acceleration and aggressive design."
     },
     {
@@ -67,7 +67,7 @@
       "type": "Cruiser",
       "abs": "Dual Channel",
       "topSpeed": "120 km/h",
-      "image": "/src/assets/Bikesimages/image copy 4.png",
+      "image": "/Bikesimages/image copy 4.png",
       "description": "Timeless retro cruiser combining comfort and strong torque delivery."
     },
     {
@@ -81,7 +81,7 @@
       "type": "Roadster",
       "abs": "Dual Channel",
       "topSpeed": "114 km/h",
-      "image": "/src/assets/Bikesimages/image copy 5.png",
+      "image": "/Bikesimages/image copy 5.png",
       "description": "Urban-friendly roadster offering agility and everyday riding comfort."
     },
     {
@@ -95,7 +95,7 @@
       "type": "Adventure",
       "abs": "Dual Channel",
       "topSpeed": "135 km/h",
-      "image": "/src/assets/Bikesimages/image copy 6.png",
+      "image": "/Bikesimages/image copy 6.png",
       "description": "Adventure touring motorcycle built for long-distance rides and rugged terrain."
     },
     {
@@ -109,7 +109,7 @@
       "type": "Retro",
       "abs": "Single Channel",
       "topSpeed": "115 km/h",
-      "image": "/src/assets/Bikesimages/image copy 7.png",
+      "image": "/Bikesimages/image copy 7.png",
       "description": "Neo-retro commuter delivering efficiency with stylish design."
     },
     {
@@ -123,7 +123,7 @@
       "type": "Sport",
       "abs": "Dual Channel",
       "topSpeed": "160 km/h",
-      "image": "/src/assets/Bikesimages/image copy 8.png",
+      "image": "/Bikesimages/image copy 8.png",
       "description": "Refined sport bike known for smooth engine performance and reliability."
     },
     {
@@ -137,7 +137,7 @@
       "type": "Cruiser",
       "abs": "Dual Channel",
       "topSpeed": "125 km/h",
-      "image": "/src/assets/Bikesimages/image copy 9.png",
+      "image": "/Bikesimages/image copy 9.png",
       "description": "Modern cruiser offering premium comfort and classic styling."
     },
     {
@@ -151,7 +151,7 @@
       "type": "Naked",
       "abs": "Dual Channel",
       "topSpeed": "136 km/h",
-      "image": "/src/assets/Bikesimages/image copy 10.png",
+      "image": "/Bikesimages/image copy 10.png",
       "description": "Sporty street machine delivering responsive acceleration."
     },
     {
@@ -165,7 +165,7 @@
       "type": "Tourer",
       "abs": "Dual Channel",
       "topSpeed": "155 km/h",
-      "image": "/src/assets/Bikesimages/image copy 11.png",
+      "image": "/Bikesimages/image copy 11.png",
       "description": "Powerful touring motorcycle designed for highway cruising."
     },
     {
@@ -179,7 +179,7 @@
       "type": "Naked",
       "abs": "Dual Channel",
       "topSpeed": "127 km/h",
-      "image": "/src/assets/Bikesimages/image copy 12.png",
+      "image": "/Bikesimages/image copy 12.png",
       "description": "Race-inspired naked bike with modern tech and sharp handling."
     },
     {
@@ -193,7 +193,7 @@
       "type": "Sport",
       "abs": "Dual Channel",
       "topSpeed": "160 km/h",
-      "image": "/src/assets/Bikesimages/image copy 13.png",
+      "image": "/Bikesimages/image copy 13.png",
       "description": "Premium fully-faired sports motorcycle built for speed lovers."
     },
     {
@@ -207,7 +207,7 @@
       "type": "Sport",
       "abs": "Dual Channel",
       "topSpeed": "150 km/h",
-      "image": "/src/assets/Bikesimages/image copy 14.png",
+      "image": "/Bikesimages/image copy 14.png",
       "description": "Aerodynamic sports machine delivering refined performance."
     },
     {
@@ -221,7 +221,7 @@
       "type": "Adventure",
       "abs": "Dual Channel",
       "topSpeed": "140 km/h",
-      "image": "/src/assets/Bikesimages/image copy 15.png",
+      "image": "/Bikesimages/image copy 15.png",
       "description": "Versatile adventure bike for touring and light off-road rides."
     },
     {
@@ -235,7 +235,7 @@
       "type": "Adventure",
       "abs": "Single Channel",
       "topSpeed": "115 km/h",
-      "image": "/src/assets/Bikesimages/image copy 16.png",
+      "image": "/Bikesimages/image copy 16.png",
       "description": "Lightweight dual-sport motorcycle perfect for trails and daily commuting."
     },
     {
@@ -249,7 +249,7 @@
       "type": "Sport",
       "abs": "Dual Channel",
       "topSpeed": "140 km/h",
-      "image": "/src/assets/Bikesimages/image copy 17.png",
+      "image": "/Bikesimages/image copy 17.png",
       "description": "Modern revival of an iconic sport bike with aggressive styling."
     },
     {
@@ -263,7 +263,7 @@
       "type": "Sport",
       "abs": "Dual Channel",
       "topSpeed": "182 km/h",
-      "image": "/src/assets/Bikesimages/image copy 18.png",
+      "image": "/Bikesimages/image copy 18.png",
       "description": "Premium twin-cylinder sport bike offering smooth power delivery."
     },
     {
@@ -277,7 +277,7 @@
       "type": "Super Naked",
       "abs": "Dual Channel",
       "topSpeed": "240 km/h",
-      "image": "/src/assets/Bikesimages/image copy 19.png",
+      "image": "/Bikesimages/image copy 19.png",
       "description": "High-performance super naked motorcycle delivering extreme power."
     },
   {
@@ -291,7 +291,7 @@
     "type": "Sport",
     "abs": "Dual Channel",
     "topSpeed": "180 km/h",
-    "image": "/src/assets/Bikesimages/image copy 20.png",
+    "image": "/Bikesimages/image copy 20.png",
     "description": "Twin-cylinder supersport with high performance and smooth power delivery."
   },
   {
@@ -305,7 +305,7 @@
     "type": "Naked",
     "abs": "Single Channel",
     "topSpeed": "115 km/h",
-    "image": "/src/assets/Bikesimages/image copy 21.png",
+    "image": "/Bikesimages/image copy 21.png",
     "description": "Reliable commuter with sporty design and fuel efficiency."
   },
   {
@@ -319,7 +319,7 @@
     "type": "Naked",
     "abs": "Dual Channel",
     "topSpeed": "140 km/h",
-    "image": "/src/assets/Bikesimages/image copy 22.png",
+    "image": "/Bikesimages/image copy 22.png",
     "description": "Lightweight streetfighter with sharp handling and aggressive styling."
   },
   {
@@ -333,7 +333,7 @@
     "type": "Sport",
     "abs": "Dual Channel",
     "topSpeed": "170 km/h",
-    "image": "/src/assets/Bikesimages/image copy 23.png",
+    "image": "/Bikesimages/image copy 23.png",
     "description": "Track-focused machine with high performance and aerodynamic design."
   },
   {
@@ -347,7 +347,7 @@
     "type": "Cruiser",
     "abs": "Dual Channel",
     "topSpeed": "115 km/h",
-    "image": "/src/assets/Bikesimages/image copy 24.png",
+    "image": "/Bikesimages/image copy 24.png",
     "description": "Comfortable cruiser built for long rides and relaxed touring."
   },
   {
@@ -361,7 +361,7 @@
     "type": "Roadster",
     "abs": "Dual Channel",
     "topSpeed": "170 km/h",
-    "image": "/src/assets/Bikesimages/image copy 25.png",
+    "image": "/Bikesimages/image copy 25.png",
     "description": "Twin-cylinder roadster delivering smooth power and classic appeal."
   },
   {
@@ -375,7 +375,7 @@
     "type": "Naked",
     "abs": "Single Channel",
     "topSpeed": "130 km/h",
-    "image": "/src/assets/Bikesimages/image copy 26.png",
+    "image": "/Bikesimages/image copy 26.png",
     "description": "Sporty commuter with aggressive styling and refined performance."
   },
   {
@@ -389,7 +389,7 @@
     "type": "Cruiser",
     "abs": "Dual Channel",
     "topSpeed": "120 km/h",
-    "image": "/src/assets/Bikesimages/image copy 27.png",
+    "image": "/Bikesimages/image copy 27.png",
     "description": "Premium retro cruiser with smooth engine and modern features."
   },
   {
@@ -403,7 +403,7 @@
     "type": "Sport",
     "abs": "Dual Channel",
     "topSpeed": "140 km/h",
-    "image": "/src/assets/Bikesimages/image copy 28.png",
+    "image": "/Bikesimages/image copy 28.png",
     "description": "Fully-faired sports bike offering speed and performance."
   },
   {
@@ -417,7 +417,7 @@
     "type": "Commuter",
     "abs": "Single Channel",
     "topSpeed": "100 km/h",
-    "image": "/src/assets/Bikesimages/image copy 29.png",
+    "image": "/Bikesimages/image copy 29.png",
     "description": "Stylish commuter bike with excellent mileage and features."
   },
   {
@@ -431,7 +431,7 @@
     "type": "Naked",
     "abs": "Single Channel",
     "topSpeed": "115 km/h",
-    "image": "/src/assets/Bikesimages/image copy 30.png",
+    "image": "/Bikesimages/image copy 30.png",
     "description": "Reliable and efficient street bike for daily riding."
   },
   {
@@ -445,7 +445,7 @@
     "type": "Adventure",
     "abs": "Dual Channel",
     "topSpeed": "200 km/h",
-    "image": "/src/assets/Bikesimages/image copy 31.png",
+    "image": "/Bikesimages/image copy 31.png",
     "description": "Adventure tourer built for long-distance comfort and versatility."
   }
   ]
