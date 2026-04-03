@@ -11,7 +11,7 @@ const Collection = () => {
   useEffect(() => {
     const fetchApi = async () => {
       try {
-        const response = await axios.get("./bikes.json");
+        const response = await axios.get("/bikes.json");
         setBikes(response.data.bikes);
       } catch (err) {
         setError("Failed to load bikes");

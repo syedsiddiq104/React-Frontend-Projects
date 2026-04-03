@@ -7,23 +7,22 @@ const BikeDetails = () => {
   const navigate = useNavigate();
   const [bike, setBike] = useState(null);
 
-useEffect(() => {
-  const fetchBike = async () => {
-    try {
-      const res = await axios.get("/bikes.json");
+  useEffect(() => {
+    const fetchBike = async () => {
+      try {
+        const res = await axios.get("/bikes.json");
 
-      const data = Array.isArray(res.data.bikes) ? res.data.bikes : [];
+        const data = Array.isArray(res.data.bikes) ? res.data.bikes : [];
+        const bike = data.find((b) => b.id === Number(id));
 
-      const bike = data.find((b) => b.id === Number(id));
+        setBike(bike);
+      } catch (err) {
+        console.error("Error fetching bike:", err);
+      }
+    };
 
-      setBike(bike);
-    } catch (err) {
-      console.error("Error fetching bike:", err);
-    }
-  };
-
-  fetchBike();
-}, [id]);
+    fetchBike();
+  }, [id]);
 
   if (!bike) return <p className="text-white text-center mt-10">Loading...</p>;
 
