@@ -15,3 +15,5 @@ Each project focuses on different core concepts like components, hooks, state ma
 - ReactBits
 
 ---
+
+Live : https://react-minii-projects.netlify.app/
