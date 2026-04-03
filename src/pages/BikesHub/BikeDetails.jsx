@@ -8,17 +8,18 @@ const BikeDetails = () => {
   const [bike, setBike] = useState(null);
 
   useEffect(() => {
-  const fetchBike = async () => {
-    try {
-      const res = await axios.get("/public/bikes.json");
-      const bike = res.data.find((b) => b.id === Number(id));
-      setBike(bike);
-    } catch (err) {
-      console.error("Error fetching bike:", err);
-    }
-  };
-  fetchBike();
-}, [id]);
+    const fetchBike = async () => {
+      try {
+        const res = await axios.get("/bikes.json");
+        const data = Array.isArray(res.data) ? res.data : [];
+        const bike = data.find((b) => b.id === Number(id));
+        setBike(bike);
+      } catch (err) {
+        console.error("Error fetching bike:", err);
+      }
+    };
+    fetchBike();
+  }, [id]);
 
   if (!bike) return <p className="text-white text-center mt-10">Loading...</p>;
 
