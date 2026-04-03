@@ -10,7 +10,7 @@ const BikeDetails = () => {
   useEffect(() => {
   const fetchBike = async () => {
     try {
-      const res = await axios.get("/bikes.json");
+      const res = await axios.get("/public/bikes.json");
       const bike = res.data.find((b) => b.id === Number(id));
       setBike(bike);
     } catch (err) {
