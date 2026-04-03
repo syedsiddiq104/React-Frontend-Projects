@@ -30,9 +30,15 @@ const Collection = () => {
       setFilteredBikes(bikes.filter((bike) => bike.brand === brand));
     }
   };
-  
 
   let navigate = useNavigate();
+
+  const displayBikes =
+    Array.isArray(filteredBikes) && filteredBikes.length > 0
+      ? filteredBikes
+      : Array.isArray(bikes)
+        ? bikes
+        : [];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white px-4 sm:px-6 lg:px-10 py-10 cursor-grab active:cursor-grabbing">
@@ -49,22 +55,72 @@ const Collection = () => {
 
       <div className="m-20">
         <ul className="flex flex-row  gap-5 items-center justify-center flex-wrap ">
-          <li className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold" onClick={() => FilterBikes("ALL")}>ALL</li>
-          <li className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold" onClick={() => FilterBikes("Yamaha")}>YAMAHA</li>
-          <li className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold" onClick={() => FilterBikes("Royal Enfield")}>ROYAL ENFIELD</li>
-          <li className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold" onClick={() => FilterBikes("Bajaj")}>BAJAJ</li>
-          <li className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold" onClick={() => FilterBikes("KTM")}>KTM</li>
-          <li className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold" onClick={() => FilterBikes("Honda")}>HONDA</li>
-          <li className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold" onClick={() => FilterBikes("Suzuki")}>SUZUKI</li>
-          <li className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold" onClick={() => FilterBikes("TVS")}>TVS</li>
-          <li className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold" onClick={() => FilterBikes("Kawasaki")}>KAWASAKI</li>
-          <li className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold" onClick={() => FilterBikes("Hero")}>HERO</li>
+          <li
+            className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold"
+            onClick={() => FilterBikes("ALL")}
+          >
+            ALL
+          </li>
+          <li
+            className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold"
+            onClick={() => FilterBikes("Yamaha")}
+          >
+            YAMAHA
+          </li>
+          <li
+            className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold"
+            onClick={() => FilterBikes("Royal Enfield")}
+          >
+            ROYAL ENFIELD
+          </li>
+          <li
+            className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold"
+            onClick={() => FilterBikes("Bajaj")}
+          >
+            BAJAJ
+          </li>
+          <li
+            className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold"
+            onClick={() => FilterBikes("KTM")}
+          >
+            KTM
+          </li>
+          <li
+            className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold"
+            onClick={() => FilterBikes("Honda")}
+          >
+            HONDA
+          </li>
+          <li
+            className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold"
+            onClick={() => FilterBikes("Suzuki")}
+          >
+            SUZUKI
+          </li>
+          <li
+            className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold"
+            onClick={() => FilterBikes("TVS")}
+          >
+            TVS
+          </li>
+          <li
+            className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold"
+            onClick={() => FilterBikes("Kawasaki")}
+          >
+            KAWASAKI
+          </li>
+          <li
+            className="cursor-pointer border-2 rounded-xl p-1 whitespace-nowrap flex-1 text-center bg-white text-black font-bold"
+            onClick={() => FilterBikes("Hero")}
+          >
+            HERO
+          </li>
         </ul>
       </div>
 
       {!loading && !error && (
         <div className=" relative flex flex-wrap gap-6 justify-center   ">
-          {(filteredBikes.length === 0 ? bikes : filteredBikes).map((bike) => (
+          {displayBikes.map((bike) => (
             <div
               key={bike.id}
               className="group relative bg-[#f5f5f5] text-black rounded-3xl p-4 w-[280px] shadow-[0_20px_40px_rgba(0,0,0,0.2)] transition-all duration-300 overflow-hidden cursor-pointer active:cursor-grabbing
@@ -73,7 +129,7 @@ const Collection = () => {
             >
               <div className="w-full h-40 flex items-center justify-evenly ">
                 <img
-                  src={bike.image}
+                  src={bike.image || "/fallback.png"}
                   alt={bike.model}
                   className="h-full object-contain transition-transform duration-300 group-hover:scale-125 "
                 />
