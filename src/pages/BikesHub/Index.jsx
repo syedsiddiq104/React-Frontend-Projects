@@ -3,13 +3,13 @@ import { useNavigate } from "react-router-dom";
 
 const Index = () => {
   const images = [
-    "src/assets/Bikesimages/image copy 2.png",
-    "src/assets/Bikesimages/image copy 9.png",
-    "src/assets/Bikesimages/image copy 17.png",
-    "src/assets/Bikesimages/image copy 8.png",
-    "src/assets/Bikesimages/image copy 4.png",
-    "src/assets/Bikesimages/image copy 12.png",
-    "src/assets/Bikesimages/image copy 13.png",
+    "/Bikesimages/image copy 2.png",
+    "/Bikesimages/image copy 9.png",
+    "/Bikesimages/image copy 17.png",
+    "/Bikesimages/image copy 8.png",
+    "/Bikesimages/image copy 4.png",
+    "/Bikesimages/image copy 12.png",
+    "/Bikesimages/image copy 13.png",
   ];
 
   const transformStyles = images.map((_, i) => {

@@ -11,7 +11,7 @@ const Collection = () => {
   useEffect(() => {
     const fetchApi = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/bikes");
+        const response = await axios.get("/bikes.json");
         setBikes(response.data);
       } catch (err) {
         setError("Failed to load bikes");
@@ -30,6 +30,7 @@ const Collection = () => {
       setFilteredBikes(bikes.filter((bike) => bike.brand === brand));
     }
   };
+  
 
   let navigate = useNavigate();
 
